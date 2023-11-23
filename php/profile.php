@@ -5,7 +5,7 @@ require 'vendor/autoload.php';
 $redis = new Redis();
 $redis->pconnect('127.0.0.1');
 
-$uri = "mongodb+srv://ragul542rv:ragul2023@cluster-guvi.pstcrrv.mongodb.net/users?retryWrites=true&w=majority";
+$uri = "mongodb+srv://<username>:<password>@cluster-guvi.pstcrrv.mongodb.net/users?retryWrites=true&w=majority";
 $client = new MongoDB\Client($uri);
 $profiles = $client->__get("users")->__get("profiles");
 
