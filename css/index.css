@@ -1,0 +1,14 @@
+@import "./base.css";
+
+#flow {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+
+    a {
+        font-size: 1.5em;
+    }
+}

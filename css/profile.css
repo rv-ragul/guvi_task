@@ -1,0 +1,17 @@
+@import "./base.css";
+
+body {
+    height: 100vh;
+    overflow: scroll;
+}
+
+#form-container {
+    height: 100vh;
+    margin-top: 20px;
+}
+
+#actions {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
